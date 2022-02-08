@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor{
+height: 100vh;
+width: 100%;
+background-color: #78281F;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.botones{
+    text-decoration: none;
+    font-size:  78pt;
+    color: #ff51318f;
+    transition: 1s;
+}
+.botones:active{
+    font-size: 78pt;
+    transition: 1s;
+}
+
+.header{
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #3b0000;
+    color: #eee;
+    position:fixed;
+    width: 100%;
+
+}
+.menu{
+    position:absolute;
+    right: 30px;
+    top: 8px;
+    font-size: 20pt;
+}
+.logo{
+    position: fixed;
+    left: 130px;
+    opacity: 0.5px;
+    bottom: 0px;
+
+
+}
